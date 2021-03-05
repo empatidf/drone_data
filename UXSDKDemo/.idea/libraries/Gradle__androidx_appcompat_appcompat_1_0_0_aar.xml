@@ -2,11 +2,15 @@
   <library name="Gradle: androidx.appcompat:appcompat:1.0.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/36dda5f6703942c0210935ebe57c9557/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/36dda5f6703942c0210935ebe57c9557/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/36dda5f6703942c0210935ebe57c9557/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/36dda5f6703942c0210935ebe57c9557/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -4,6 +4,9 @@
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2176080784aa49c323c345ae8fbb4982/jetified-play-services-base-16.0.1/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2176080784aa49c323c345ae8fbb4982/jetified-play-services-base-16.0.1/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2176080784aa49c323c345ae8fbb4982/jetified-play-services-base-16.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/cd00cc4273fa782f325024e7bbfd63dd/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/cd00cc4273fa782f325024e7bbfd63dd/res" />
+      <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/cd00cc4273fa782f325024e7bbfd63dd/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

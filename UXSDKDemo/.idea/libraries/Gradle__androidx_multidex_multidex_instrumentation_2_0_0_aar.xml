@@ -5,6 +5,9 @@
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/0466da477a1063311da3b1b25aab60ae/multidex-instrumentation-2.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/0466da477a1063311da3b1b25aab60ae/multidex-instrumentation-2.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/0466da477a1063311da3b1b25aab60ae/multidex-instrumentation-2.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/adf2e5450f9b01806e3b87b909f903a5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/adf2e5450f9b01806e3b87b909f903a5/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/adf2e5450f9b01806e3b87b909f903a5/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
