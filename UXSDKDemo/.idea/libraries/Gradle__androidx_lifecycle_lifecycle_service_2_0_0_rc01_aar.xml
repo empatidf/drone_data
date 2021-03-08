@@ -8,14 +8,10 @@
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c7d51108eaa54c5c08f760adaa9c7f0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c7d51108eaa54c5c08f760adaa9c7f0/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c7d51108eaa54c5c08f760adaa9c7f0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09e1dbfa5dfcb822ebfb98bd25062d96/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09e1dbfa5dfcb822ebfb98bd25062d96/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09e1dbfa5dfcb822ebfb98bd25062d96/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-service/2.0.0-rc01/999ea8b25853ad7cc5c95b49b03c5f83a9ba1305/lifecycle-service-2.0.0-rc01-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-service/2.0.0-rc01/999ea8b25853ad7cc5c95b49b03c5f83a9ba1305/lifecycle-service-2.0.0-rc01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
