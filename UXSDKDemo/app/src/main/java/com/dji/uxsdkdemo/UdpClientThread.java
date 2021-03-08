@@ -21,10 +21,6 @@ import dji.common.flightcontroller.FlightControllerState;
 
 public class UdpClientThread extends Thread{
 
-
-
-    state  FlightControllerState;
-
     String dstAddress;
     int dstPort;
     private boolean running;
@@ -63,18 +59,9 @@ public class UdpClientThread extends Thread{
             byte[] sendData    = new byte[1024];
             byte[] receiveData = new byte[1024];
 
-            //String latitudeText = String.valueOf(locationModel.getLatitude());
-           // String longitudeText = String.valueOf(locationModel.getLongitude());
-            //String altitudeText = String.valueOf(locationModel.getAltitude());
-
-            double lat = dji.common.flightControllerState.getAircraftLocation().getLatitude();
-            double lon = dji.common.flightControllerState.getAircraftLocation().getLongitude();
-            double alt = dji.common.flightControllerState.getAircraftLocation().getAltitude();
-            String latitudeText = String.valueOf(lat);
-            String longitudeText = String.valueOf(lon);
-            String altitudeText = String.valueOf(alt);
-
-            String locationText = latitudeText + "+" + longitudeText + "+" + altitudeText;
+            String latitudeText = String.valueOf(locationModel.getLatitude());
+            String longitudeText = String.valueOf(locationModel.getLongitude());
+            String altitudeText = String.valueOf(locationModel.getAltitude());
 
             JSONObject json = new JSONObject();
             json.put("latitude", latitudeText);

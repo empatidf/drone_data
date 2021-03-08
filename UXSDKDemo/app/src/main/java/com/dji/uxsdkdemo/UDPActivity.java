@@ -13,6 +13,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.dji.uxsdkdemo.model.LocationModel;
 
+import dji.common.flightcontroller.FlightControllerState;
+import dji.common.flightcontroller.LocationCoordinate3D;
+import dji.sdk.base.BaseProduct;
+import dji.sdk.products.Aircraft;
+
 public class UDPActivity extends AppCompatActivity {
 
     private String targetIp = "192.168.137.1";
@@ -29,8 +34,12 @@ public class UDPActivity extends AppCompatActivity {
     EditText editTextIP;
     EditText editTextPort;
     public static TextView textViewStatus;
+    public static TextView textViewLatitude;
+    public static TextView textViewLongitude;
+    public static TextView textViewAltitude;
     Button buttonConnect;
     Button resetConnect;
+    FlightControllerState flightControllerState;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,20 +48,28 @@ public class UDPActivity extends AppCompatActivity {
         udpClientHandler = new UdpClientHandler(this);
         setContentView(R.layout.second_activity);
 
+        flightControllerState = new FlightControllerState();
+
         Intent intent = getIntent();
-        locationModel = intent.getParcelableExtra("dji"); //if it's a string you stored.
+        //locationModel = intent.getParcelableExtra("dji"); //if it's a string you stored.
 
         customHandler = new android.os.Handler();
 
         editTextIP = findViewById(R.id.edit_text_udp_ip);
         editTextPort = findViewById(R.id.edit_text_udp_port);
         textViewStatus = findViewById(R.id.text_view_udp_status);
+        textViewLatitude = findViewById(R.id.text_view_latitude);
+        textViewLongitude = findViewById(R.id.text_view_longitude);
+        textViewAltitude = findViewById(R.id.text_view_altitude);
         buttonConnect = findViewById(R.id.button_udp_connect);
         resetConnect = findViewById(R.id.button_udp_reset);
 
         buttonConnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (editTextPort.getText() == null || editTextPort.getText().toString().isEmpty()) {
+                    return;
+                }
                 customHandler.postDelayed(updateTimerThread, timeInterval);
             }
         });
@@ -61,9 +78,50 @@ public class UDPActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 textViewStatus.setText("");
+                textViewLatitude.setText("");
+                textViewLongitude.setText("");
+                textViewAltitude.setText("");
                 customHandler.removeCallbacks(updateTimerThread);
             }
         });
+
+//        BaseProduct product = DJISampleApplication.getProductInstance();
+//        if (product != null && product.isConnected()) {
+//            if (product instanceof Aircraft) {
+//                mFlightController = ((Aircraft) product).getFlightController();
+//            }
+//        }
+//
+//        if (mFlightController != null) {
+//            mFlightController.setStateCallback(new FlightControllerState.Callback() {
+//
+//                @Override
+//                public void onUpdate(FlightControllerState djiFlightControllerCurrentState) {
+//                    droneLocationLat = djiFlightControllerCurrentState.getAircraftLocation().getLatitude();
+//                    droneLocationLng = djiFlightControllerCurrentState.getAircraftLocation().getLongitude();
+//                    droneLocationAlt = djiFlightControllerCurrentState.getAircraftLocation().getAltitude();
+//                    updateDroneLocation();
+//                }
+//            });
+//        }
+//    }
+//
+//    private void updateDroneLocation() {
+//        textViewLatitude.setText(String.valueOf(droneLocationLat));
+//        textViewLongitude.setText(String.valueOf(droneLocationLng));
+//        textViewAltitude.setText(String.valueOf(droneLocationAlt));
+//
+//        udpClientThread = new UDPClientThread(
+//                editTextIP.getText().toString(),
+//                Integer.parseInt(editTextPort.getText().toString()),
+//                udpClientHandler,
+//                new LocationModel(
+//                        droneLocationLat,
+//                        droneLocationLng,
+//                        droneLocationAlt
+//                )
+//        );
+//        udpClientThread.start();
     }
 
     private Runnable updateTimerThread = new Runnable() {
@@ -75,11 +133,19 @@ public class UDPActivity extends AppCompatActivity {
 
     private void sendDataToUDP() {
 
+
+        LocationCoordinate3D location3d = flightControllerState.getAircraftLocation();
+        LocationModel location = new LocationModel(location3d.getLatitude(), location3d.getLongitude(), location3d.getAltitude());
+
+        textViewLatitude.setText(String.valueOf(location3d.getLatitude()));
+        textViewLongitude.setText(String.valueOf(location3d.getLongitude()));
+        textViewAltitude.setText(String.valueOf(location3d.getAltitude()));
+
         udpClientThread = new UdpClientThread(
                 editTextIP.getText().toString(),
                 Integer.parseInt(editTextPort.getText().toString()),
                 udpClientHandler,
-                locationModel
+                location
         );
         udpClientThread.start();
     }

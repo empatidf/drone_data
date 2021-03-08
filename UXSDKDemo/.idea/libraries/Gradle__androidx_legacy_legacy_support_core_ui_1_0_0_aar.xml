@@ -8,10 +8,14 @@
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/03a1aa2eb30986f0174bff96779a3c9b/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/03a1aa2eb30986f0174bff96779a3c9b/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/03a1aa2eb30986f0174bff96779a3c9b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a13bfdd01087cfe4787bc791fa50911/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a13bfdd01087cfe4787bc791fa50911/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a13bfdd01087cfe4787bc791fa50911/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/modules-2/files-2.1/androidx.legacy/legacy-support-core-ui/1.0.0/f6044eaebe354c778f1f147ddb9e92a3f1e22fc7/legacy-support-core-ui-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.legacy/legacy-support-core-ui/1.0.0/f6044eaebe354c778f1f147ddb9e92a3f1e22fc7/legacy-support-core-ui-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

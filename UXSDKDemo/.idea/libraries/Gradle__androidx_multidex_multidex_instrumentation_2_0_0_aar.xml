@@ -8,6 +8,9 @@
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/adf2e5450f9b01806e3b87b909f903a5/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/adf2e5450f9b01806e3b87b909f903a5/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/adf2e5450f9b01806e3b87b909f903a5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/590bc7db7af939737882ca38017d3960/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/590bc7db7af939737882ca38017d3960/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/590bc7db7af939737882ca38017d3960/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

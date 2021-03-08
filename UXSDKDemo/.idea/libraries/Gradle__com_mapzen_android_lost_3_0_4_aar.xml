@@ -7,12 +7,17 @@
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/ad1c1ad9f9a5302959ba5a4d219c4205/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/ad1c1ad9f9a5302959ba5a4d219c4205/res" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/ad1c1ad9f9a5302959ba5a4d219c4205/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60c0a853cf3abf6f2f28b01eaecac541/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60c0a853cf3abf6f2f28b01eaecac541/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60c0a853cf3abf6f2f28b01eaecac541/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/ee1bca54220becc41c30e8ba362f289b9f3424ca/lost-3.0.4-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/ee1bca54220becc41c30e8ba362f289b9f3424ca/lost-3.0.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/64183480c0a48f9aed168bebff4ccc7eda15d5f/lost-3.0.4-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapzen.android/lost/3.0.4/64183480c0a48f9aed168bebff4ccc7eda15d5f/lost-3.0.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

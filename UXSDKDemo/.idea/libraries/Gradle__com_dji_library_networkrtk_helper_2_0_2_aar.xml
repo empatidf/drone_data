@@ -9,6 +9,10 @@
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/1a52498b464bcd69f37a93cc1e51bc69/res" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/1a52498b464bcd69f37a93cc1e51bc69/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/1a52498b464bcd69f37a93cc1e51bc69/jars/libs/wz-rtcm-2.0.2-release.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73961ace7a10104242bb4e6889c7886c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73961ace7a10104242bb4e6889c7886c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73961ace7a10104242bb4e6889c7886c/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73961ace7a10104242bb4e6889c7886c/jars/libs/wz-rtcm-2.0.2-release.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

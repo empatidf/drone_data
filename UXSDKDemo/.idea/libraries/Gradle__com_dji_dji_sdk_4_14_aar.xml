@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/72ef14fc77bcf1a6e4161a37e482a33a/jetified-dji-sdk-4.14/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/e9286967091c8e41251f351078489052/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/72ef14fc77bcf1a6e4161a37e482a33a/jetified-dji-sdk-4.14/jars/libs/rxandroid-1.1.0.jar!/" />
@@ -31,6 +32,19 @@
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/e9286967091c8e41251f351078489052/jars/libs/adapter-rxjava2-2.2.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/e9286967091c8e41251f351078489052/jars/libs/rxjava-computation-expressions-0.21.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/e9286967091c8e41251f351078489052/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/logging-interceptor-3.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/sqlcipher.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/dji-rxjava-1.1.3.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/rxandroid-1.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/retrofit-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/converter-gson-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/dji-reactive-streams-1.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/sqlbrite-0.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/rxjava-computation-expressions-0.21.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/133b6ee52406630ef7e0fb2deb8a9f2b/jars/libs/adapter-rxjava2-2.2.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/36dda5f6703942c0210935ebe57c9557/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/833ee5729e051961adb10f7f6fac0842/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/res" />
@@ -11,10 +12,14 @@
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/36dda5f6703942c0210935ebe57c9557/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/36dda5f6703942c0210935ebe57c9557/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/transforms-2/files-2.1/36dda5f6703942c0210935ebe57c9557/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/833ee5729e051961adb10f7f6fac0842/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/833ee5729e051961adb10f7f6fac0842/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/833ee5729e051961adb10f7f6fac0842/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../Mobile-UXSDK-Beta-Android/android-uxsdk-beta-sample/gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.0/1deaac9c124b19a14ebaf64780e7087d561541bd/appcompat-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.0/1deaac9c124b19a14ebaf64780e7087d561541bd/appcompat-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
