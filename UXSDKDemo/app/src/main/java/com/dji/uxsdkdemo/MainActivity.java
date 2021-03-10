@@ -46,16 +46,10 @@ public class MainActivity extends AppCompatActivity {
         buttonUDP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FlightControllerState flightControllerState = new FlightControllerState();
-                LocationCoordinate3D location3d = flightControllerState.getAircraftLocation();
-                LocationModel location = new LocationModel(location3d.getLatitude(), location3d.getLongitude(), location3d.getAltitude());
-
                 Intent intent = new Intent(MainActivity.this, UDPActivity.class);
-                intent.putExtra("dji", location);
                 startActivity(intent);
             }
         });
     }
 
 }
-

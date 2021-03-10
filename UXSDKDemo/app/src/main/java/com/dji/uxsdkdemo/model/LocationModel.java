@@ -6,9 +6,9 @@ import android.os.Parcelable;
 public class LocationModel implements Parcelable {
     public double latitude;
     public double longitude;
-    public float altitude;
+    public double altitude;
 
-    public LocationModel(double latitude, double longitude, float altitude) {
+    public LocationModel(double latitude, double longitude, double altitude) {
         this.latitude = latitude;
         this.longitude = longitude;
         this.altitude = altitude;
@@ -48,11 +48,11 @@ public class LocationModel implements Parcelable {
         this.longitude = longitude;
     }
 
-    public float getAltitude() {
+    public double getAltitude() {
         return altitude;
     }
 
-    public void setAltitude(float altitude) {
+    public void setAltitude(double altitude) {
         this.altitude = altitude;
     }
 
@@ -65,6 +65,6 @@ public class LocationModel implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeDouble(latitude);
         dest.writeDouble(longitude);
-        dest.writeFloat(altitude);
+        dest.writeDouble(altitude);
     }
 }

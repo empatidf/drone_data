@@ -52,6 +52,7 @@
         android:id="@+id/button_udp_connect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="Connect"
         android:layout_marginTop="8dp"/>
 
@@ -59,6 +60,8 @@
         android:id="@+id/button_udp_reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
+
         android:text="Reset"
         android:layout_marginTop="8dp"/>
 
@@ -66,6 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:visibility="gone"
         android:layout_marginTop="20dp">
 
         <TextView
@@ -77,6 +81,72 @@
 
         <TextView
             android:id="@+id/text_view_udp_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:text="Latitude :"/>
+
+        <TextView
+            android:id="@+id/text_view_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:text="Longitude :"/>
+
+        <TextView
+            android:id="@+id/text_view_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:text="Altitude :"/>
+
+        <TextView
+            android:id="@+id/text_view_altitude"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
